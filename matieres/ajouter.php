@@ -1,6 +1,6 @@
 <?php
 
-require_once "../cnx.php";
+require_once "../config.php";
 
 if(isset($_POST['nom_matiere'])){
 
@@ -30,3 +30,6 @@ Ajouter
 </button>
 
 </form>
+
+
+<?php include "../includes/footer.php"; ?>

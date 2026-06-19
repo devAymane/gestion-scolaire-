@@ -1,5 +1,7 @@
 <?php
-require_once "../cnx.php";
+require_once "../config.php";
+include "../includes/header.php";
+include "../includes/navbar.php";
 
 $sql = "SELECT * FROM enseignant";
 $stmt = $pdo->query($sql);
@@ -35,3 +37,6 @@ $enseignants = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </tr>
     <?php endforeach; ?>
 </table>
+
+
+<?php include "../includes/footer.php"; ?>

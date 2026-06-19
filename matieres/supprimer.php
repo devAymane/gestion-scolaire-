@@ -1,6 +1,6 @@
 <?php
 
-require_once "../cnx.php";
+require_once "../config.php";
 
 $id = $_GET['id'];
 

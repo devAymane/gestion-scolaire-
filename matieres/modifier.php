@@ -1,6 +1,6 @@
 <?php
 
-require_once "../cnx.php";
+require_once "../config.php";
 
 $id = $_GET['id'];
 
@@ -41,3 +41,6 @@ Modifier
 </button>
 
 </form>
+
+
+<?php include "../includes/footer.php"; ?>

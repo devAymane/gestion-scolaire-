@@ -1,13 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="fr">
-    
-<head>
-<link rel="stylesheet" href="style.css"><meta charset="UTF-8">
-<title>Gestion Scolaire</title>
-<link rel="stylesheet" href="/style.css">
-</head>
-<body> -->
-
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -21,3 +11,5 @@
 <body>
 
 <div class="wrapper">
+
+

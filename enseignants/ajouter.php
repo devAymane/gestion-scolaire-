@@ -1,5 +1,5 @@
 <?php
-require_once "../cnx.php";
+require_once "../config.php";
 
 if(isset($_POST['nom'])){
 
@@ -27,3 +27,5 @@ if(isset($_POST['nom'])){
 
     <button type="submit">Ajouter</button>
 </form>
+
+<?php include "../includes/footer.php"; ?>

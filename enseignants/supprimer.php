@@ -1,6 +1,6 @@
 <?php
 
-require_once "../cnx.php";
+require_once "../config.php";
 
 $id = $_GET['id'];
 
@@ -12,3 +12,6 @@ $stmt = $pdo->prepare(
 $stmt->execute([$id]);
 
 header("Location:index.php");
+
+
+

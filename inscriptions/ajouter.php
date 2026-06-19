@@ -1,6 +1,6 @@
 <?php
 
-require_once "../cnx.php";
+require_once "../config.php";
 
 $eleves = $pdo->query(
 "SELECT * FROM eleve"
@@ -83,3 +83,5 @@ Ajouter
 </button>
 
 </form>
+
+<?php include "../includes/footer.php"; ?>

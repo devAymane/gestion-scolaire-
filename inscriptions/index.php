@@ -1,6 +1,8 @@
 <?php
 
-require_once "../cnx.php";
+require_once "../config.php";
+include "../includes/header.php";
+include "../includes/navbar.php";
 
 $sql = "SELECT
 i.id_inscrire,
@@ -68,3 +70,5 @@ Supprimer
 <?php endforeach; ?>
 
 </table>
+
+<?php include "../includes/footer.php"; ?>

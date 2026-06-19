@@ -1,5 +1,7 @@
 <?php
-require_once "../cnx.php";
+require_once "../config.php";
+include "../includes/header.php";
+include "../includes/navbar.php";
 
 $stmt = $pdo->query("SELECT * FROM matiere");
 $matieres = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -32,3 +34,5 @@ $matieres = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <?php endforeach; ?>
 
 </table>
+
+<?php include "../includes/footer.php"; ?>
